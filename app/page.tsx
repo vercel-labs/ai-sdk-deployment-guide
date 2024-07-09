@@ -5,6 +5,7 @@ import { useState } from "react";
 import { continueConversation } from "./actions";
 import { readStreamableValue } from "ai/rsc";
 
+
 // allow streaming responses up to 30 seconds
 export const maxDuration = 30;
 
